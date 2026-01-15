@@ -1,0 +1,4 @@
+{
+    // Disable inline (ghost text) suggestions in this workspace
+    "editor.inlineSuggest.enabled": false
+}
