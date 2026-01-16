@@ -5,9 +5,14 @@ def reverse_string(input:list[str])->None:
         left+=1
         right-=1
 
+
 s = ["h","e","l","l","o"]
 
 reverse_string(s)
 print(s)
 
+""" the other way we can do 
+def string_rev(s: str)->str:
+    return s[::-1] """
 
+    

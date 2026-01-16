@@ -6,5 +6,5 @@ def pair_target(nums:list[int],target:int)->tuple[int,int]:
             return left+1,right+1 # 1 -base index
         if s<target:
             left+=1
-        else s>target:
+        else:
             right-=1
